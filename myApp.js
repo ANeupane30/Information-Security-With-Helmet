@@ -3,6 +3,8 @@ const helmet = require('helmet');
 const app = express();
 
 
+// Hidding Powered By content from response header with the help of helmet.js
+app.use(helmet.hidePoweredBy())
 
 
 
